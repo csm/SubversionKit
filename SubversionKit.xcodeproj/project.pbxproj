@@ -12,6 +12,11 @@
 		70FA7F2B11A5A2700018192C /* libsvn_client-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FA7F2A11A5A2700018192C /* libsvn_client-1.a */; };
 		70FA7F4E11A5A3F20018192C /* SVNVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7F4C11A5A3F20018192C /* SVNVersion.h */; };
 		70FA7F4F11A5A3F20018192C /* SVNVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7F4D11A5A3F20018192C /* SVNVersion.m */; };
+		70FA7F7111A5CED70018192C /* SVNAuthenticationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7F7011A5CED70018192C /* SVNAuthenticationDelegate.h */; };
+		70FA7F7B11A5F06C0018192C /* keychain_auth_provider.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7F7911A5F06C0018192C /* keychain_auth_provider.h */; };
+		70FA7F7C11A5F06C0018192C /* keychain_auth_provider.c in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7F7A11A5F06C0018192C /* keychain_auth_provider.c */; };
+		70FA7F8511A733F70018192C /* AsynchronousInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7F8311A733F70018192C /* AsynchronousInvocation.h */; };
+		70FA7F8611A733F70018192C /* AsynchronousInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7F8411A733F70018192C /* AsynchronousInvocation.m */; };
 		AA747D9F0F9514B9006C5449 /* SubversionKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SubversionKit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -22,6 +27,11 @@
 		70FA7F2A11A5A2700018192C /* libsvn_client-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsvn_client-1.a"; path = "/usr/local/iphone/iPhoneOS3.2/lib/libsvn_client-1.a"; sourceTree = "<absolute>"; };
 		70FA7F4C11A5A3F20018192C /* SVNVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNVersion.h; sourceTree = "<group>"; };
 		70FA7F4D11A5A3F20018192C /* SVNVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVNVersion.m; sourceTree = "<group>"; };
+		70FA7F7011A5CED70018192C /* SVNAuthenticationDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = SVNAuthenticationDelegate.h; sourceTree = "<group>"; };
+		70FA7F7911A5F06C0018192C /* keychain_auth_provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keychain_auth_provider.h; sourceTree = "<group>"; };
+		70FA7F7A11A5F06C0018192C /* keychain_auth_provider.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keychain_auth_provider.c; sourceTree = "<group>"; };
+		70FA7F8311A733F70018192C /* AsynchronousInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousInvocation.h; sourceTree = "<group>"; };
+		70FA7F8411A733F70018192C /* AsynchronousInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousInvocation.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* SubversionKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubversionKit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSubversionKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSubversionKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +85,11 @@
 				70FA7F2711A59BE60018192C /* SVNRevision.m */,
 				70FA7F4C11A5A3F20018192C /* SVNVersion.h */,
 				70FA7F4D11A5A3F20018192C /* SVNVersion.m */,
+				70FA7F7011A5CED70018192C /* SVNAuthenticationDelegate.h */,
+				70FA7F7911A5F06C0018192C /* keychain_auth_provider.h */,
+				70FA7F7A11A5F06C0018192C /* keychain_auth_provider.c */,
+				70FA7F8311A733F70018192C /* AsynchronousInvocation.h */,
+				70FA7F8411A733F70018192C /* AsynchronousInvocation.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -97,6 +112,9 @@
 				AA747D9F0F9514B9006C5449 /* SubversionKit_Prefix.pch in Headers */,
 				70FA7F2811A59BE60018192C /* SVNRevision.h in Headers */,
 				70FA7F4E11A5A3F20018192C /* SVNVersion.h in Headers */,
+				70FA7F7111A5CED70018192C /* SVNAuthenticationDelegate.h in Headers */,
+				70FA7F7B11A5F06C0018192C /* keychain_auth_provider.h in Headers */,
+				70FA7F8511A733F70018192C /* AsynchronousInvocation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +163,8 @@
 			files = (
 				70FA7F2911A59BE60018192C /* SVNRevision.m in Sources */,
 				70FA7F4F11A5A3F20018192C /* SVNVersion.m in Sources */,
+				70FA7F7C11A5F06C0018192C /* keychain_auth_provider.c in Sources */,
+				70FA7F8611A733F70018192C /* AsynchronousInvocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
